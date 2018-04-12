@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- Meta, title, CSS, favicons, etc. -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Login I-CX</title>
+
+    <!-- Bootstrap -->
+    <link href="../vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- NProgress -->
+    <link href="../vendors/nprogress/nprogress.css" rel="stylesheet">
+    <!-- Custom Theme Style -->
+    <link href="../build/css/custom.css" rel="stylesheet">
+    <style media="screen">
+      h1{
+        color: #9E9E9E;
+      }
+
+      .login {
+        background-color: #FAFAFA;
+      }
+
+      .logo {
+    	margin-bottom:30px;
+    	margin-left:0px;
+    	-webkit-transition:2s;
+    	}
+
+    	.logo:hover {
+    	-webkit-transform: rotatey(180deg);;
+    	-webkit-transition-duration: 2s;
+    	}
+    </style>
+  </head>
+
+  <body class="login">
+    <div>
+      <div class="login_wrapper">
+        <div class="animate form login_form">
+          <section class="login_content">
+            <form action="dashboard_adm.html">
+              <h1>Login Form</h1>
+              <div>
+                <input type="text" class="form-control" placeholder="NIK" required />
+              </div>
+              <div>
+                <input type="password" class="form-control" placeholder="Password" required />
+              </div>
+              <div>
+                <button class="btn btn-danger ftco-animate" href="index.html">Log in</button>
+                <a class="reset_pass" href="#">Forget your password?</a>
+              </div>
+
+              <div class="clearfix"></div>
+
+              <div class="separator">
+
+                <div class="clearfix"></div>
+                <br />
+
+                <div>
+                  <center>
+            	      <img class="logo" src="images/indihome.png" style="width:60%; padding-bottom:20px;" />
+            	    </center>
+                  <p>©2018 All Rights Reserved.</p>
+                </div>
+              </div>
+            </form>
+          </section>
+        </div>
+      </div>
+    </div>
+
+    <!-- NProgress -->
+    <script src="../vendors/nprogress/nprogress.js"></script>
+  </body>
+</html>
